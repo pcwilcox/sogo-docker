@@ -20,7 +20,9 @@ RUN     export DEBIAN_FRONTEND=noninteractive                                   
                 libldap2-dev                                                            \
                 libmysqlclient-dev                                                      \
                 libgnutls28-dev                                                         \
-                libsodium-dev
+                libsodium-dev                                                           \
+                zlib1g-dev                                                              \
+                libzip-dev
 
 
 # Download SOGo and SOPE sources
